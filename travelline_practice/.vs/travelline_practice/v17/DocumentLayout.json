@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\SuperD\\Projects\\travelline_practice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{300763CA-FE84-47A6-9C18-986E3899CF64}|lecture1\\Converter\\Converter.csproj|c:\\users\\superd\\projects\\travelline_practice\\lecture1\\converter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{300763CA-FE84-47A6-9C18-986E3899CF64}|lecture1\\Converter\\Converter.csproj|solutionrelative:lecture1\\converter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B2D2AD-10C5-4651-9075-DE7CFA7D6DDE}|lecture1\\Casino\\Casino.csproj|c:\\users\\superd\\projects\\travelline_practice\\lecture1\\casino\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B2D2AD-10C5-4651-9075-DE7CFA7D6DDE}|lecture1\\Casino\\Casino.csproj|solutionrelative:lecture1\\casino\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB280F01-9634-4DC1-A519-2871E5987FD6}|lecture1\\Delivery\\Delivery.csproj|c:\\users\\superd\\projects\\travelline_practice\\lecture1\\delivery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB280F01-9634-4DC1-A519-2871E5987FD6}|lecture1\\Delivery\\Delivery.csproj|solutionrelative:lecture1\\delivery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB280F01-9634-4DC1-A519-2871E5987FD6}|lecture1\\Delivery\\Delivery.csproj|c:\\users\\superd\\projects\\travelline_practice\\lecture1\\delivery\\delivery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB280F01-9634-4DC1-A519-2871E5987FD6}|lecture1\\Delivery\\Delivery.csproj|solutionrelative:lecture1\\delivery\\delivery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B2D2AD-10C5-4651-9075-DE7CFA7D6DDE}|lecture1\\Casino\\Casino.csproj|c:\\users\\superd\\projects\\travelline_practice\\lecture1\\casino\\casino.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35B2D2AD-10C5-4651-9075-DE7CFA7D6DDE}|lecture1\\Casino\\Casino.csproj|solutionrelative:lecture1\\casino\\casino.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4CD54EE-AC2D-4323-AECC-02E7738C8E72}|travelline_practice\\travelline_practice.csproj|c:\\users\\superd\\projects\\travelline_practice\\travelline_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4CD54EE-AC2D-4323-AECC-02E7738C8E72}|travelline_practice\\travelline_practice.csproj|solutionrelative:travelline_practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": 37,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,16 +170,77 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delivery.csproj",
+              "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Delivery\\Delivery.csproj",
+              "RelativeDocumentMoniker": "lecture1\\Delivery\\Delivery.csproj",
+              "ToolTip": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Delivery\\Delivery.csproj",
+              "RelativeToolTip": "lecture1\\Delivery\\Delivery.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-22T06:28:26.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Casino.csproj",
+              "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Casino\\Casino.csproj",
+              "RelativeDocumentMoniker": "lecture1\\Casino\\Casino.csproj",
+              "ToolTip": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Casino\\Casino.csproj",
+              "RelativeToolTip": "lecture1\\Casino\\Casino.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-22T06:28:22.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Casino\\Program.cs",
+              "RelativeDocumentMoniker": "lecture1\\Casino\\Program.cs",
+              "ToolTip": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Casino\\Program.cs",
+              "RelativeToolTip": "lecture1\\Casino\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T06:26:24.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Delivery\\Program.cs",
+              "RelativeDocumentMoniker": "lecture1\\Delivery\\Program.cs",
+              "ToolTip": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Delivery\\Program.cs",
+              "RelativeToolTip": "lecture1\\Delivery\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T06:25:56.884Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Converter\\Program.cs",
+              "RelativeDocumentMoniker": "lecture1\\Converter\\Program.cs",
+              "ToolTip": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Converter\\Program.cs",
+              "RelativeToolTip": "lecture1\\Converter\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T06:25:30.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\travelline_practice\\Program.cs",
               "RelativeDocumentMoniker": "travelline_practice\\Program.cs",
               "ToolTip": "C:\\Users\\SuperD\\Projects\\travelline_practice\\travelline_practice\\Program.cs",
               "RelativeToolTip": "travelline_practice\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T06:21:15.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T06:21:15.284Z"
             }
           ]
         },
