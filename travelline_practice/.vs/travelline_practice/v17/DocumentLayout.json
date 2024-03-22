@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\SuperD\\Projects\\travelline_practice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{03ED9686-A14F-416F-855A-7861DD3E11E2}|homework\\Dictionary\\Dictionary.csproj|c:\\users\\superd\\projects\\travelline_practice\\homework\\dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03ED9686-A14F-416F-855A-7861DD3E11E2}|homework\\Dictionary\\Dictionary.csproj|solutionrelative:homework\\dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{300763CA-FE84-47A6-9C18-986E3899CF64}|lecture1\\Converter\\Converter.csproj|c:\\users\\superd\\projects\\travelline_practice\\lecture1\\converter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{300763CA-FE84-47A6-9C18-986E3899CF64}|lecture1\\Converter\\Converter.csproj|solutionrelative:lecture1\\converter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 37,
+          "SelectedChildIndex": 33,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,7 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\homework\\Dictionary\\Program.cs",
+              "RelativeDocumentMoniker": "homework\\Dictionary\\Program.cs",
+              "ToolTip": "C:\\Users\\SuperD\\Projects\\travelline_practice\\homework\\Dictionary\\Program.cs",
+              "RelativeToolTip": "homework\\Dictionary\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T06:40:15.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Delivery.csproj",
               "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Delivery\\Delivery.csproj",
               "RelativeDocumentMoniker": "lecture1\\Delivery\\Delivery.csproj",
@@ -182,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Casino.csproj",
               "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Casino\\Casino.csproj",
               "RelativeDocumentMoniker": "lecture1\\Casino\\Casino.csproj",
@@ -194,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Casino\\Program.cs",
               "RelativeDocumentMoniker": "lecture1\\Casino\\Program.cs",
@@ -202,12 +219,11 @@
               "RelativeToolTip": "lecture1\\Casino\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T06:26:24.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T06:26:24.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Delivery\\Program.cs",
               "RelativeDocumentMoniker": "lecture1\\Delivery\\Program.cs",
@@ -219,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\lecture1\\Converter\\Program.cs",
               "RelativeDocumentMoniker": "lecture1\\Converter\\Program.cs",
@@ -227,12 +243,11 @@
               "RelativeToolTip": "lecture1\\Converter\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T06:25:30.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T06:25:30.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SuperD\\Projects\\travelline_practice\\travelline_practice\\Program.cs",
               "RelativeDocumentMoniker": "travelline_practice\\Program.cs",
