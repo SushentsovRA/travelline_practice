@@ -1,18 +1,18 @@
 ﻿Dictionary<string, string> Translation = new Dictionary<string, string>();
 string CallMenu()
 {
-    Console.WriteLine( "Введите команду:" );
+    Console.WriteLine( $"Введите одну из команд:" +
+        $"{Environment.NewLine}AddTranslation - добавить перевод" +
+        $"{Environment.NewLine}RemoveTranslation - удалить перевод" +
+        $"{Environment.NewLine}ChangeTranslation - изменить перевод" +
+        $"{Environment.NewLine}Translate - перевести русское слово на английский" +
+        $"{Environment.NewLine}Exit - выйти" );
     string command = Console.ReadLine();
     return command;
 }
-
-Console.WriteLine( "Введите одну из команд:\nAddTranslation - добавить перевод\nRemoveTranslation - удалить перевод\nChangeTranslation - изменить перевод" );
-Console.WriteLine( "Translate - перевести русское слово на английский" );
-
-string command = Console.ReadLine();
+string command = CallMenu();
 bool Exists = true;
-
-while ( command == "AddTranslation" || command == "RemoveTranslation" || command == "ChangeTranslation" || command == "Translate" )
+while ( command != "Exit" )
 {
     if ( command == "AddTranslation" )
     {
@@ -80,6 +80,11 @@ while ( command == "AddTranslation" || command == "RemoveTranslation" || command
             Console.WriteLine( $"Перевод для такого слова отсутствует" );
             command = CallMenu();
         }
+    }
+    else
+    {
+        Console.WriteLine( "Неизвестная команда, попробуйте еще раз" );
+        command = CallMenu();
     }
 }
 Console.WriteLine( "Выход..." );

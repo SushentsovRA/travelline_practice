@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("travelline_practice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d461e7b0b65ec8c8668496a1d92ce7bfb1e72686")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53e236ae57823fd7dce77301a1902a29e3504735")]
 [assembly: System.Reflection.AssemblyProductAttribute("travelline_practice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("travelline_practice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
