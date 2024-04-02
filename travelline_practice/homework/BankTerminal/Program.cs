@@ -2,23 +2,43 @@
 Console.WriteLine( "Введите PIN-код" );
 string pincodeStr = Console.ReadLine();
 int pincode = int.Parse( pincodeStr );
-if ( pincode == 1111 )
+int GetUserAction()
 {
-    Console.WriteLine( $"Ваш текущий баланс {balance} у.е.\nНажмите 1, чтобы снять деньги\nНажмите 2, чтобы пополнить баланс\nНажмите другое число, чтобы выйти" );
+    Console.WriteLine( $"Ваш текущий баланс {balance} у.е." +
+    $"{Environment.NewLine}Нажмите 1, чтобы снять деньги" +
+    $"{Environment.NewLine}Нажмите 2, чтобы пополнить баланс" +
+    $"{Environment.NewLine}Нажмите другое число, чтобы выйти" );
     string chooseStr = Console.ReadLine();
     int choice = int.Parse( chooseStr );
-    while ( choice == 1 | choice == 2 )
+    return choice;
+}
+int HandleWithdrawal()
+{
+    Console.WriteLine( $"Введите сумму к снятию" );
+    string betStr = Console.ReadLine();
+    int bet = int.Parse( betStr );
+    return bet;
+}
+int HandleReplenishment()
+{
+    Console.WriteLine( $"Введите сумму к пополнению" );
+    string betStr = Console.ReadLine();
+    int bet = int.Parse( betStr );
+    return bet;
+}
+if ( pincode == 1111 )
+{
+    int choice = GetUserAction();
+
+    while ( choice == 1 || choice == 2 )
     {
         if ( choice == 1 )
         {
-            Console.WriteLine( $"Введите сумму к снятию" );
-            string betStr = Console.ReadLine();
-            int bet = int.Parse( betStr );
+            int bet = HandleWithdrawal();
             if ( bet <= balance )
             {
                 balance -= bet;
-                Console.WriteLine( $"Ваш текущий баланс {balance} у.е.\nНажмите 1, чтобы снять деньги\nНажмите 2, чтобы пополнить баланс\nНажмите другое число, чтобы выйти" );
-                choice = int.Parse( Console.ReadLine() );
+                choice = GetUserAction();
             }
             else
             {
@@ -27,12 +47,9 @@ if ( pincode == 1111 )
         }
         else
         {
-            Console.WriteLine( $"Введите сумму к пополнению" );
-            string betStr = Console.ReadLine();
-            int bet = int.Parse( betStr );
+            int bet = HandleReplenishment();
             balance += bet;
-            Console.WriteLine( $"Ваш текущий баланс {balance} у.е.\nНажмите 1, чтобы снять деньги\nНажмите 2, чтобы пополнить баланс\nНажмите другое число, чтобы выйти" );
-            choice = int.Parse( Console.ReadLine() );
+            choice = GetUserAction();
         }
     }
     Console.WriteLine( "Выход..." );
